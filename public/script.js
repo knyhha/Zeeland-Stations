@@ -49,7 +49,7 @@ fetch(`${baseUrl}/stationsZeeland`, { signal: AbortSignal.timeout(5000) })
             const marker = L.marker([lat, lng], { icon: stationIcon }).addTo(map);
             marker.bindPopup(`
                 <h3>${s.name}</h3>
-                <p>Coordinates: ${lat}, ${lng}</p>
+                <p>Сoördinaten: ${lat}, ${lng}</p>
                 <p>Site: <a href=${site} target="_blank">${site}</a></p>
                 <img src=${stationImage} alt="" width="300" height="200" style="border-radius: 8px;"> 
             `);
