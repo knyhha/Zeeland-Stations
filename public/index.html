@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <title>Zeeland Stations</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="src/img/zeeland-icon.png" width="128" height="128" alt="Zeeland Vertraging">
+            <span class="logo-text">Zeeland Stations</span>
+        </a>
+    </header>
+    <main>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="api-status">
+                <div class="pulse-ring" id="ring"></div>
+                <span style="padding-left: 5px"><a href="https://apiportal.ns.nl/"
+                        target="_blank"><u>https://apiportal.ns.nl/</u></a><br>Status: <span
+                        id="api-status">Loading...</span></span>
+            </div>
+            <p>Hulpmiddelen: <a href="https://github.com/fvdm/nodejs-ns-api"
+                    target="_blank"><u>https://github.com/fvdm/nodejs-ns-api</u></a>
+            <a href="https://leafletjs.com/" target="_blank"><u>https://leafletjs.com/</u></a></p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

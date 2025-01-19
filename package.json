@@ -1,0 +1,20 @@
+{
+  "name": "ovdataexplorer",
+  "version": "1.0.0",
+  "description": "API ontdekken",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "knyhha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "leaflet": "^1.9.4",
+    "ns-api": "^4.1.2"
+  }
+}
