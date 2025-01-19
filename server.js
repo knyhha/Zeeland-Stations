@@ -16,7 +16,7 @@ const limiter = rateLimit({
 });
 
 const corsOptions = {
-    origin: "*",
+    origin: "https://zeeland-stations.onrender.com",
     methods: "GET",
     optionsSuccessStatus: 200
 }
