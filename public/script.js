@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000' // of http://localhost:3000
+const baseUrl = 'https://zeeland-stations.onrender.com' // of http://localhost:3000
 
 const stations = {
     'MDB': { icon: 'src/img/Coat_of_arms_of_Middelburg.svg', size: [50, 55], stationImage: 'src/img/StationMiddelburg.jpg' },
